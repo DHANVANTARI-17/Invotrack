@@ -57,7 +57,7 @@ System with minimum 4GB RAM and at least 2GHz processor.
 
 # 4. Database Design
 ## ER Diagram 
-![alt text](ERD.png)
+![alt text](images/ERD.png)
 
 ## Relational Schema 
 Key Tables
