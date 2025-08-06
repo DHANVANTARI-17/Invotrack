@@ -55,14 +55,7 @@ System with minimum 4GB RAM and at least 2GHz processor.
 - Programming Language- Java (JDBC connectivity)
 - Database Query Tools- MYSQL Workbench
 
-# 4. Architecture Overview
-System workflow
-
-Role-based access
-
-Integration of Java Swing frontend and MySQL backend
-
-# 5. Database Design
+# 4. Database Design
 ## ER Diagram 
 ![alt text](ERD.png)
 
@@ -142,7 +135,7 @@ Key Tables
 | Date           | DATE        | NOT NULL    | Date of transaction         |
 
 
-# 6. Relationships
+# 5. Relationships
 - Admin Supplier: Admin can add multiple suppliers (One to Many)
 - Supplier Customer: One supplier can manage many Customers
 (One to Many)
@@ -168,7 +161,7 @@ carts (Many to Many)
 payment (One to One)
 
 
-# 7. Normalization Explanation
+# 6. Normalization Explanation
 ### First Normal Form
 All columns must contain atomic values. Each record should be unique.
 - Admin
@@ -245,7 +238,8 @@ Every attribute should be dependent on key, whole key. All tables are in BCNF
 ### Fourth Normal Form
 Multivalued dependency in a table must be multivalued dependencies on the
 key. All tables are in 4th normal form.
-# 9. User Interface Overview
+
+# 7. User Interface Overview
 ### Login Page
 ![alt text](images/Login.png)
 Registration Page
