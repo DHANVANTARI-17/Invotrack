@@ -23,7 +23,7 @@ public class CommonConnection
     public static Connection getConnection() throws SQLException
     {
         Connection con;
-        con =DriverManager.getConnection("jdbc:mysql://localhost:3306/inventory","root","Dhanu@17");
+        con =DriverManager.getConnection("jdbc:mysql://localhost:3306/inventory","user","password");
         return con;
     }
     
